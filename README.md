@@ -1,2 +1,12 @@
-# Grocery-List-Web-Application
+# Grocery List
+#### Video Demo:  https://youtu.be/XIdEGQbfUNg
+#### Description:
 My project is called Grocery List, and it's purpose is for the users to create their grocery/supermarket lists so they remember what they have to buy at the supermarket, without writing it specifically to a piece of paper.
+
+So when the app is opened, the user has to login to his account or if he does not have one, he can register to create one. If the user leaves an input empty,or his password does not contain at least one number, or the password doesn't match with the confirmation at registration, then the user gets prompted with an apology template that informs him what error has occured. After the user has logged in the homepage, the latest list, that the user has created, appears. That way the user's list is accessed the fastest way, so that the user just opens the app when he arrives at the supermarket and has already in his hands his grocery list. If the user has just registerd and has not any lists, the homepage just shows a Welcome message, and also informing there are not any grocery lists yet.
+
+In the tab on the top of the page the user can find the New List button, which takes the user to the new route, where the user can create his very own lists. In the new route the user sees a pair of an input and a button. He can input the item that he wants to insert to his grocery list and then press the add button if he wants to add a new item. If he presses the add button, a new pair of input and button appears for the new item that the user wants to insert. As soon as the user presses the add button and the new pair appears, the previous now add button becomes a remove button with "-" sign instead of a "+" sign on it. This way if the user changes his mind and wants to remove an item, he has the ability to do so. Once the user inserts all of the items he wants, he can press the Show List button, which creates the list and redirects him to the new_list route where now he sees his newly created list. Now of course, if the user goes back to the homepage, the latest list is now changed and replaced with the one he just created.
+
+Also, the web application has a button called History at the top, which takes you to the history route. There the user can see the history of all of his previous lists. More specifically, I chose to show 3 lists in each row, so that it is pleasant presentationally. With the history of the user's lists, the user can benefit by remembering some items he bought the previous time or he just wants to use the same list for the items he is going to buy. Generally, for revisiting purposes I think it is a good idea to document all the lists of each user.
+
+That's basically it! Thank you.

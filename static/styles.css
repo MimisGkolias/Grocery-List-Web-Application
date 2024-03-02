@@ -1,0 +1,178 @@
+
+.navbar .nav-item .nav-link {
+    color: #C69774;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #F7B787;
+}
+
+nav .navbar-brand
+{
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #537fbe;
+}
+nav .navbar-brand .red
+{
+    color: #ea433b;
+}
+nav .navbar-brand .yellow
+{
+    color: #f5b82e;
+}
+nav .navbar-brand .green
+{
+    color: #2e944b;
+}
+
+
+.add-button{
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.btn-primary {
+    background-color: #F7B787;
+    border-color: #F7B787;
+}
+
+body {
+    background-color: #FAEED1;
+}
+
+.btn-primary:focus {
+    background-color: #F7B787;
+    border-color: #F7B787;
+    box-shadow: 0 0 10px #F7B787;
+}
+
+.btn-primary:hover {
+    background-color: #F7B787;
+    border-color: #F7B787;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px solid;
+    padding: 10px;
+    border-width: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width: 50%;
+    border: 5px solid;
+    padding: 10px;
+    border-width: 0;
+ }
+
+ .form-control:focus {
+    border-color: #F7B787;
+    box-shadow: 0 0 10px #F7B787;
+ }
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+#input-box-id
+{
+    width: 800px;
+    font-size: 14pt;
+}
+
+#input-button {
+    display: flex;
+    flex-direction: row;
+}
+
+.input-width {
+    width: 900px;
+}
+
+.latest_list_div {
+    color: #F7B787;
+    /* margin-left: 0; */
+}
+
+.list_container {
+    margin: auto;
+    width: 300px;
+    border: 5px solifd;
+    padding: 10px;
+    border-width: 0;
+}
+
+.pair {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+table {
+    width: 300px;
+    font-family: 'Arial';
+    margin: 25px auto;
+    border-collapse: collapse;
+    border: 1px solid #eee;
+    border-bottom: 2px solid #F7B787;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.10),
+       0px 10px 20px rgba(0,0,0,0.05),
+       0px 20px 20px rgba(0,0,0,0.05),
+       0px 30px 20px rgba(0,0,0,0.05);
+}
+
+table tr:hover {
+    background: #f4f4f4;
+}
+
+table tr:hover td {
+    color: #EE7214;
+}
+
+th, td {
+    color: #C69774;
+    border: 1px solid #eee;
+    padding: 12px 35px;
+    border-collapse: collapse;
+}
+
+th {
+    background: #F7B787;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+th.last {
+    border-right: none;
+}
+
+
+
+.welcome_div {
+    color: #F7B787;
+    
+}

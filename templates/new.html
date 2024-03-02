@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    New List
+{% endblock %}
+
+
+{% block main %}
+
+    <form method="post" id="new_list">
+        <div class="container">
+            <div class="pair" id="input-button">
+
+                <input autocomplete="off" autofocus class="form-control input-width" id="item0" name="item0" placeholder="Item" type="text">
+                <button class="btn btn-primary add-button" id="add-button" type="submit" name="action" value="add">+</button>
+
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-primary submit-button" id="submit-button" type="submit" name="action" value="redirect">Show List</button>
+    </form>
+
+{% endblock %}

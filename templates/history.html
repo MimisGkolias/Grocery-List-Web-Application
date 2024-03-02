@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+
+<div class="grid-container">
+    {% for list in lists %}
+        <table>
+            <thead>
+                <tr>
+                    <th>{{ list['timestamp'] }}</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- TODO: Loop through the database entries to display them in this table -->
+                {% for item in items_list[list['id']] %}
+                        <tr>
+                            <td>{{ item.name }}</td>
+                        </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+</div>
+
+{% endblock %}

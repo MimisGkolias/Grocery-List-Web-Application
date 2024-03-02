@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    New List
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>Your Grocery List</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- TODO: Loop through the database entries to display them in this table -->
+            {% for item in items %}
+                <tr>
+                    <td>{{ item }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
